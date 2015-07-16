@@ -5,7 +5,7 @@ React Native component for getting or setting clipboard content
 ## Usage
 
 ```javascript
-npm install react-native-cilpboard --save
+npm install react-native-clipboard --save
 ```
 
 In XCode, in the project navigator, right click Libraries ➜ Add Files to [your project's name], Go to node_modules ➜ react-native-clipboard and add the `RNClipboard.xcodeproj` file
