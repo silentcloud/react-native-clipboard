@@ -1,0 +1,30 @@
+{
+  "name": "react-native-clipboard",
+  "version": "0.0.1",
+  "description": "React Native component for getting or setting clipboard content",
+  "main": "RNClipboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silentcloud/react-native-clipboard.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "clipboard"
+  ],
+  "author": {
+    "name": "silentcloud",
+    "email": "rjmuqiang@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silentcloud/react-native-clipboard/issues"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.5"
+  }
+}
