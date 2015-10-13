@@ -1,6 +1,6 @@
 'use strict';
 
-var RNClipboard = require('NativeModules').RNClipboard;
+var RNClipboard = require('react-native').NativeModules.RNClipboard;
 
 var Clipboard = {
     get(callback) {
