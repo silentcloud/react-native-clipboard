@@ -33,14 +33,21 @@ public class RNClipboardAndroid extends ReactContextBaseJavaModule {
 
             ClipboardManager clipboard = (ClipboardManager)reactContext.getSystemService(reactContext.CLIPBOARD_SERVICE);
 
-            if (clipboard.getPrimaryClip().getItemCount() >= 1) {
+            android.content.ClipData clipData = clipboard.getPrimaryClip();
+
+            if(clipData == null){
+                cb.invoke("");
+                return;
+            }
+
+            if (clipData.getItemCount() >= 1) {
                 ClipData.Item clipDataItem = clipboard.getPrimaryClip().getItemAt(0);
 
-                String data = (String) clipDataItem.getText();
+                String data = "" + clipDataItem.getText();
 
                 cb.invoke(data);
             } else {
-                cb.invoke(null);
+                cb.invoke("");
                 return;
             }
 
