@@ -1,6 +1,6 @@
 {
   "name": "react-native-clipboard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native component for getting or setting clipboard content",
   "main": "RNClipboard.js",
   "scripts": {
