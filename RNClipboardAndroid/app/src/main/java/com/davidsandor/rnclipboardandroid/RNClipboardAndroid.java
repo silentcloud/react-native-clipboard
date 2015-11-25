@@ -23,7 +23,7 @@ public class RNClipboardAndroid extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "ClipboardAndroid";
+        return "RNClipboard";
     }
 
     @ReactMethod
