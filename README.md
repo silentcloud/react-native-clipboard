@@ -15,7 +15,7 @@ In XCode, in the project navigator, select your project. Add the lib*.a from the
 Run your project (Cmd+R)
 
 ## Android
-* In `RNClipboardAndroid/setting.gradle`
+* In `android/setting.gradle`
 
 ```gradle
 ...
