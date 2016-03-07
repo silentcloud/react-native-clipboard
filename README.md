@@ -1,3 +1,10 @@
+
+**NOTE:** 
+
+  Clipboard API has been part of RN core since version 0.17, [https://github.com/facebook/react-native/blob/master/Libraries/Components/Clipboard/Clipboard.js](https://github.com/facebook/react-native/blob/master/Libraries/Components/Clipboard/Clipboard.js), [#5](https://github.com/silentcloud/react-native-clipboard/issues/5). This project will not add any new features any more...
+  
+---
+
 # react-native-clipboard
 
 React Native component for getting or setting clipboard content
